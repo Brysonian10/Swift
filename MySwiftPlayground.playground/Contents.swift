@@ -62,8 +62,10 @@ tenEighty.frameRate = 25.0
 let alsoTenEighty = tenEighty
 alsoTenEighty.frameRate = 30.0
 
-
-
+if tenEighty === alsoTenEighty {
+    print("tenEighty and alsoTenEighty refer to the same VideoMode instance.")
+}
+// Prints "tenEighty and alsoTenEighty refer to the same VideoMode instance."
 
 
 
