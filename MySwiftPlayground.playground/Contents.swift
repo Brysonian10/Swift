@@ -1,5 +1,5 @@
 //: Playground - noun: a place where people can play
-
+import UIKit
 struct SomeStructure {
     //structure definition goes here
 }
@@ -66,6 +66,10 @@ if tenEighty === alsoTenEighty {
     print("tenEighty and alsoTenEighty refer to the same VideoMode instance.")
 }
 // Prints "tenEighty and alsoTenEighty refer to the same VideoMode instance."
+
+let myButton : UIButton
+myButton = UIButton (frame : CGRect(x:0 , y: 0 , width: 500, height: 30))
+myButton.backgroundColor = .red
 
 
 
